@@ -31,7 +31,11 @@ body {
 
 h1 {
   font-family: "Nerko One", cursive;
-  text-transform: uppercase;
+}
+
+iframe {
+  width: 100%;
+  aspect-ratio: 1.75;
 }
 
 /* # UTILS */
@@ -43,6 +47,21 @@ h1 {
   max-width: 100%;
 }
 
+/* FONT PROPERTIES */
+
+.f-bold {
+  font-weight: bolder;
+}
+
+.f-upper {
+  text-transform: uppercase;
+}
+
+.f-capitalize {
+  text-transform: capitalize;
+}
+
+/* WIDTH */
 .w-100 {
   width: 100%;
 }
@@ -55,13 +74,38 @@ h1 {
   width: 40%;
 }
 
+/* DISPLAY */
 .d-none {
   display: none;
 }
 
-iframe {
-  width: 100%;
-  aspect-ratio: 1.75;
+.d-flex {
+  display: flex;
+}
+
+/* FONT AWESOME */
+
+.fa-facebook {
+  color: #1a77f3;
+}
+
+.fa-twitter {
+  color: #009eff;
+}
+
+.fa-instagram {
+  color: #de3d85;
+}
+
+.fa-youtube,
+.fa-pinterest {
+  color: #e62222;
+}
+
+/* HEADER */
+
+.site-header {
+  background-color: white;
 }
 
 /* # MAIN */
@@ -70,6 +114,13 @@ iframe {
   background-color: white;
   display: flex;
   flex-direction: column;
+}
+
+.social-btn {
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 30px;
+  display: inline-block;
 }
 
 /* # MEDIA QUERY */
@@ -87,5 +138,14 @@ iframe {
 
   .hero-card {
     flex-direction: row;
+  }
+
+  .container-lg {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .d-lg-inlineb {
+    display: inline-block;
   }
 }
