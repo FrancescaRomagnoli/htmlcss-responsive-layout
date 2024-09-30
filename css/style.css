@@ -207,6 +207,23 @@ footer {
 
 /* # MEDIA QUERY */
 
+@media screen and (min-width: 576px) {
+  .float-left {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+
+  .w-sm-40 {
+    width: 40%;
+  }
+
+  .social-btn {
+    width: 18%;
+    text-align: center;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .hero .title-thick {
     font-size: 2rem;
@@ -237,6 +254,10 @@ footer {
 @media screen and (min-width: 992px) {
   .fa-brands {
     padding-right: 5px;
+  }
+
+  .w-lg-30 {
+    width: 30%;
   }
 
   .w-lg-40 {
@@ -287,22 +308,5 @@ footer {
 
   .footer-link {
     padding: 10px;
-  }
-}
-
-@media screen and (min-width: 576px) {
-  .float-left {
-    float: left;
-    margin-right: 5px;
-    margin-bottom: 5px;
-  }
-
-  .w-sm-40 {
-    width: 40%;
-  }
-
-  .social-btn {
-    width: 18%;
-    text-align: center;
   }
 }
