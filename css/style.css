@@ -127,6 +127,12 @@ ul.d-flex {
   display: inline-block;
 }
 
+/* FOOTER */
+
+footer {
+  background-color: #7c69a4;
+}
+
 /* # MEDIA QUERY */
 
 @media screen and (min-width: 768px) {
