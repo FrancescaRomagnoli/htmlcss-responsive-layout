@@ -26,6 +26,7 @@ li {
 
 body {
   font-family: Montserrat, "Helvetica Neue", sans-serif;
+  color: #0e0e0e;
   background-color: #f6f5f3;
 }
 
@@ -183,7 +184,7 @@ iframe {
 }
 
 .presentation-content {
-  line-height: 1.5rem;
+  line-height: 1.8rem;
 }
 
 /* FOOTER */
