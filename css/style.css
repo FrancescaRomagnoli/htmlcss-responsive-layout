@@ -24,11 +24,68 @@ li {
   list-style-type: none;
 }
 
+body {
+  font-family: Montserrat, "Helvetica Neue", sans-serif;
+  background-color: #f6f5f3;
+}
+
+h1 {
+  font-family: "Nerko One", cursive;
+  text-transform: uppercase;
+}
+
 /* # UTILS */
 
 .container {
   margin: 0 auto;
   padding: 0 10px;
-  width: 1000px;
+  width: 90%;
   max-width: 100%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-lg-40 {
+  width: 40%;
+}
+
+.w-lg-60 {
+  width: 40%;
+}
+
+.d-none {
+  display: none;
+}
+
+iframe {
+  width: 100%;
+  aspect-ratio: 1.75;
+}
+
+/* # MAIN */
+
+.hero-card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+/* # MEDIA QUERY */
+
+@media screen and (min-width: 768px) {
+  .d-md-inlineb {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .w-lg-40 {
+    width: 40%;
+  }
+
+  .hero-card {
+    flex-direction: row;
+  }
 }
