@@ -232,20 +232,6 @@ footer {
   .text-left {
     text-align: left;
   }
-
-  .social-btn {
-    width: 18%;
-    text-align: center;
-  }
-
-  .w-md-40 {
-    max-width: 40%;
-  }
-
-  .float-left {
-    float: left;
-    margin: 1rem;
-  }
 }
 
 @media screen and (min-width: 992px) {
@@ -292,5 +278,22 @@ footer {
     justify-content: space-between;
     align-items: center;
     text-align: left;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .float-left {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+
+  .w-sm-40 {
+    width: 40%;
+  }
+
+  .social-btn {
+    width: 18%;
+    text-align: center;
   }
 }
