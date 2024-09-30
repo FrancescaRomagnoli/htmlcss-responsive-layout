@@ -168,10 +168,15 @@ footer {
 .footer-container {
   text-align: center;
   color: white;
+  /* font-size: 0.9rem; */
+  padding: 1rem;
+  line-height: 1.2rem;
 }
 
 .footer-link {
   display: inline-block;
+  text-decoration: underline;
+  padding: 15px;
 }
 
 /* # MEDIA QUERY */
@@ -202,5 +207,15 @@ footer {
 
   .d-lg-inlineb {
     display: inline-block;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+
+  .site-footer {
   }
 }
