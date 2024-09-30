@@ -279,6 +279,15 @@ footer {
     align-items: center;
     text-align: left;
   }
+
+  .footer-container .col {
+    max-width: 35%;
+    font-size: 0.9rem;
+  }
+
+  .footer-link {
+    padding: 10px;
+  }
 }
 
 @media screen and (min-width: 576px) {
