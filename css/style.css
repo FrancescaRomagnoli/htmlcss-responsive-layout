@@ -273,6 +273,10 @@ footer {
     flex-direction: row;
   }
 
+  .card-li {
+    line-height: 1.5rem;
+  }
+
   .card-ul {
     display: block;
     line-height: 1.5rem;
@@ -304,7 +308,11 @@ footer {
 
   .footer-container .col {
     max-width: 35%;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+  }
+
+  .footer-container .col:last-child {
+    text-align: end;
   }
 
   .footer-link {
