@@ -311,9 +311,9 @@ footer {
     font-size: 0.8rem;
   }
 
-  .footer-container .col:last-child {
+  /* .footer-container .col:last-child {
     text-align: end;
-  }
+  } */
 
   .footer-link {
     padding: 10px;
