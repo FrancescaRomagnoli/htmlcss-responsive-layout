@@ -116,6 +116,10 @@ iframe {
   flex-direction: column;
 }
 
+ul.d-flex {
+  justify-content: space-between;
+}
+
 .social-btn {
   background-color: white;
   padding: 10px 15px;
