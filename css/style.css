@@ -160,12 +160,21 @@ iframe {
   line-height: 2rem;
 }
 
+.card-ul {
+  flex-wrap: wrap;
+}
+
+.card-li {
+  min-width: calc(100% / 3);
+  line-height: 3rem;
+}
+
 .card-body h3 {
   padding-bottom: 1rem;
   font-size: 1.3rem;
 }
 
-ul.d-flex {
+.btn-container {
   justify-content: space-between;
 }
 
